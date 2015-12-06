@@ -39,21 +39,21 @@ PRODUCT_COPY_FILES += \
 	vendor/hardkernel/odroidxu/proprietary/usr/Vendor_045e_Product_0719.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
 	vendor/hardkernel/odroidxu/proprietary/usr/Vendor_045e_Product_0719.kcm:system/usr/keychars/Vendor_045e_Product_0719.kcm
 
-PRODUCT_COPY_FILES += \
-	vendor/hardkernel/odroidxu/proprietary/app/Ultra_Explorer.apk:system/app/Ultra_Explorer.apk \
-	vendor/hardkernel/odroidxu/proprietary/app/jackpal.androidterm.apk:system/app/jackpal.androidterm.apk \
-	vendor/hardkernel/odroidxu/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+#PRODUCT_COPY_FILES += \
+#	vendor/hardkernel/odroidxu/proprietary/app/Ultra_Explorer.apk:system/app/Ultra_Explorer.apk \
+#	vendor/hardkernel/odroidxu/proprietary/app/jackpal.androidterm.apk:system/app/jackpal.androidterm.apk \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
-PRODUCT_COPY_FILES += \
-	vendor/hardkernel/odroidxu/proprietary/app/DicePlayer.apk:system/app/DicePlayer.apk \
-	vendor/hardkernel/odroidxu/proprietary/lib/libSoundTouch.so:system/lib/libSoundTouch.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libdice_jb.so:system/lib/libdice_jb.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libdice_jb2.so:system/lib/libdice_jb2.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libdice_loadlibrary.so:system/lib/libdice_loadlibrary.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libdice_software.so:system/lib/libdice_software.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libdice_software_jb.so:system/lib/libdice_software_jb.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libffmpeg_dice.so:system/lib/libffmpeg_dice.so \
-	vendor/hardkernel/odroidxu/proprietary/lib/libsonic.so:system/lib/libsonic.so
+#PRODUCT_COPY_FILES += \
+#	vendor/hardkernel/odroidxu/proprietary/app/DicePlayer.apk:system/app/DicePlayer.apk \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libSoundTouch.so:system/lib/libSoundTouch.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libdice_jb.so:system/lib/libdice_jb.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libdice_jb2.so:system/lib/libdice_jb2.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libdice_loadlibrary.so:system/lib/libdice_loadlibrary.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libdice_software.so:system/lib/libdice_software.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libdice_software_jb.so:system/lib/libdice_software_jb.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libffmpeg_dice.so:system/lib/libffmpeg_dice.so \
+#	vendor/hardkernel/odroidxu/proprietary/lib/libsonic.so:system/lib/libsonic.so
 
 ifeq ($(BOARD_USES_HGL),true)
 PRODUCT_COPY_FILES += \
